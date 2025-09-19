@@ -24,22 +24,6 @@ class IMCModel {
     }
   }
 
-  String get descripcion {
-    if (imc < 18) {
-      return 'Necesario valorar signos de desnutrición';
-    } else if (imc >= 18 && imc <= 24.9) {
-      return 'Peso normal y saludable';
-    } else if (imc >= 25 && imc <= 26.9) {
-      return 'Ligero sobrepeso';
-    } else if (imc >= 27 && imc <= 29.9) {
-      return 'Riesgo relativo para desarrollar enfermedades cardiovasculares';
-    } else if (imc >= 30 && imc <= 39.9) {
-      return 'Riesgo relativo muy alto para el desarrollo de enfermedades cardiovasculares';
-    } else {
-      return 'Riesgo relativo extremadamente alto para el desarrollo de enfermedades cardiovasculares';
-    }
-  }
-
   String get imagenAsset {
     if (imc < 18) {
       return 'assets/pesobajo.png';
