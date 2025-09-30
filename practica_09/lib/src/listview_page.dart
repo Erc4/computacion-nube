@@ -18,7 +18,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Normal'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -27,7 +27,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Lucha'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -37,7 +37,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Volador'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -47,7 +47,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Veneno'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -57,7 +57,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Tierra'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -67,7 +67,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Roca'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -77,7 +77,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Insecto'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -87,7 +87,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Fantasma'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -97,7 +97,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Acero'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -107,7 +107,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Fuego'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -117,7 +117,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Agua'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -127,7 +127,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Planta'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -137,7 +137,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Electrico'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -147,7 +147,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Psiquico'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -157,7 +157,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Hielo'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -167,7 +167,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Dragon'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -177,7 +177,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Siniestro'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -187,7 +187,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Hada'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -197,7 +197,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Desconocido'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},
@@ -207,7 +207,7 @@ class ListaPage extends StatelessWidget {
             title: Text('Sombra'),
             leading: CircleAvatar(
               radius: 22.0,
-              backgroundImage: NetworkImage('https://image.flaticon.com/icons/png/512/188/188918.png'),
+              backgroundImage: Image.asset( 'assets/pokebola.png').image,
             ),
             trailing: Icon(Icons.arrow_right),
             onTap:() {},

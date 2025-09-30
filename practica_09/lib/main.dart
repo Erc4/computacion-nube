@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: '´Practica 09',
       home : ListaPage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
